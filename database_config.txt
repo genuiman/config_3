@@ -1,0 +1,8 @@
+REM Config Database
+host is @"localhost";
+port is 5432;
+username is @"admin";
+password is @"secret";
+databases is array(@"db1", @"db2", @"db3");
+REM Version declarations
+version is 1;

@@ -1,0 +1,9 @@
+REM Config Web-App
+app_name is @"MyApp";
+debug is true;
+max_connections is 100;
+allowed_hosts is array(@"localhost", @"127.0.0.1", @"myapp.com");
+REM Ports, used applications
+ports is array(8000, 8080, 443);
+REM Version app
+version is 1;
